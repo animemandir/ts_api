@@ -286,20 +286,7 @@ export default {
             });
         }
 
-        const text = `Api Is Up... Support : https://telegram.me/TechZBots_Support 
-        
-Routes :
-        
-/home
-/search/{query}
-/anime/{id}
-/episode/{id}
-/download/{id}
-/recent/{page}
-/recommendations/{id}
-/gogoPopular/{page}
-/upcoming/{page}
-        `;
+        const text = `Api Is Up... ✔`;
         return new Response(text, {
             headers: { "content-type": "text/plain" },
         });
